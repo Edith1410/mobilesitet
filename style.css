@@ -1,0 +1,76 @@
+img {
+  width: 500px;
+  height: auto;
+}
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 15px auto;
+}
+@font-face {
+  font-family: newfont;
+  src: url(./fonts/PlaywriteNZBasic-Thin.woff2);
+}
+h2,
+h3 {
+  font-family: newfont;
+}
+@font-face {
+  font-family: Margine;
+  src: url(./fonts/Margarine-Regular.woff2);
+}
+h1 {
+  font-family: Margine;
+}
+h1,
+h2,
+h3 {
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 20px;
+}
+header,
+h1,
+h2,
+h3 {
+  background-color: #2ec4b6;
+}
+body {
+  background-color: #ff6b6b;
+}
+nav ul {
+  list-style: none;
+  padding: 0.5rem;
+  outline: 2px solid #ff6b6b;
+  border-radius: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+.cta-button {
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  margin: 1em;
+  border-radius: 70px;
+  display: inline-block;
+  text-decoration: none;
+  border: 5px double black;
+}
+
+.cta-button:hover {
+  color: white;
+  background-color: black;
+}
+p {
+  text-wrap: balance;
+}
